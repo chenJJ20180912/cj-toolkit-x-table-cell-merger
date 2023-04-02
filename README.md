@@ -17,7 +17,7 @@
 
 ### 使用方法
 ```typescript
-import {TableCellMerger} from "cj-toolkit-x/table-merger"
+import { TableCellMerger, CellValueWrapper } from '@cj-toolkit-x/table-cell-merger'
 // 创建一个单元格合并器
 const tableCellMerger = new TableCellMerger()
 // 定义options 配置项
