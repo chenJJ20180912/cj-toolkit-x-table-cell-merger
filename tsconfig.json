@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2015",
+    "module": "es2015",
+    "declaration": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types",
+      "@types"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "types": [
+        "node"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "gulpfile.js",
+    "jest.config.js",
+    "rollup.config.js",
+  ],
+  "include": [
+    "src"
+  ]
+}

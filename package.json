@@ -1,0 +1,52 @@
+{
+  "name": "@cj-toolkit-x/table-cell-merger",
+  "version": "0.0.1",
+  "description": "一个计算表格内数据合并的工具，支持行合并、列合并等常见场景。!",
+  "homepage": "https://github.com/chenJJ20180912/cj-toolkit-x-table-cell-merger#readme",
+  "bugs": {
+    "url": "https://github.com/chenJJ20180912/cj-toolkit-x-table-cell-merger/issues"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "types": "es/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.mjs",
+      "require": "./lib/index.js"
+    },
+    "./es": "./es/index.mjs",
+    "./lib": "./lib/index.js",
+    "./es/*.mjs": "./es/*.mjs",
+    "./es/*": "./es/*.mjs",
+    "./lib/*.js": "./lib/*.js",
+    "./lib/*": "./lib/*.js",
+    "./*": "./*"
+  },
+  "unpkg": "dist/index.full.js",
+  "jsdelivr": "dist/index.full.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenJJ20180912/cj-toolkit-x-table-cell-merger.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "gulp-clean": "^0.4.0"
+  },
+
+}
