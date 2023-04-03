@@ -1,6 +1,7 @@
 # cj-toolkit-x-table-merger
 一个计算表格内数据合并的工具，支持行合并、列合并等常见场景。
 <img src="./demo.png"/>
+
 ## 配置项
 
  | 属性名 | 说明 | 类型 | 默认值 | 
@@ -16,6 +17,11 @@
 
 
 ### 使用方法
+安装插件
+```cmd
+npm i @cj-toolkit-x/table-cell-merger
+```
+
 ```typescript
 import { TableCellMerger, CellValueWrapper } from '@cj-toolkit-x/table-cell-merger'
 // 创建一个单元格合并器
